@@ -14,28 +14,28 @@
 
 float TrocoSoma (float troco);
 void trocoValidador ();			                             // IMPORTANTE:
-void Posicao(int x,int y);                                   // Tudo o que comeÁa com 'c' È pra cachorro e com 'g' È pra gato.
+void Posicao(int x,int y);                                   // Tudo o que come√ßa com 'c' √© pra cachorro e com 'g' √© pra gato.
 void Intanciar_campo(); //Desenha campo                      // Exemplo: 'gServicos();' -> Servicos para gato.
-void gServicos();       //ServiÁos p/gato                    //          'cServicos();' -> ServiÁos para cachorro.
-void cServicos();       //ServiÁos p/cachorro
+void gServicos();       //Servi√ßos p/gato                    //          'cServicos();' -> Servi√ßos para cachorro.
+void cServicos();       //Servi√ßos p/cachorro
 void PDC();             //Menu secreto para o ADM
-void AltVal();          //FunÁ„o para alteraÁ„o de preÁos
-void Preco();           //PreÁos dos serviÁos
+void AltVal();          //Fun√ß√£o para altera√ß√£o de pre√ßos
+void Preco();           //Pre√ßos dos servi√ßos
 void IniciarSistema();
 int Idade (int ano);
 void Resulte();
-void gMenu(); // Produtos e Servicos
-void cMenu(); // Produtos e Servicos
+void gMenu();		// Produtos e Servicos
+void cMenu();		// Produtos e Servicos
 void cadastro();
 
-//Variaveis fora para que todas as funÁıes e procedimento que nessetem, ter acesso;
+//Variaveis fora para que todas as fun√ß√µes e procedimento que nessetem, ter acesso;
 // Variaveis para o "void Resulte ()" e Cadastro;
-char NomeAnimal[16], raca[16], a[7]; // "a[7]" Opcao para tipo de animal
+char NomeAnimal[16], raca[16], a[7];				// "a[7]" Opcao para tipo de animal
 int dataDeNac,x;//variavel 'x' para alteracao dos valores no @com
 float gValores[5];//Vetor dos precos pra gato
 float cValores[5];//Vetor dos precos pra cachorro
-float gModVal[5]={15.00,10.00,10.40,25.10,12.50};//Vetores auxiliares para alteracao de precos
-float cModVal[5]={20.00,15.00,15.40,30.10,17.50};//Vetores auxiliares para alteracao de precos
+float gModVal[5]={15.00,10.00,10.40,25.10,12.50};		//Vetores auxiliares para alteracao de precos
+float cModVal[5]={20.00,15.00,15.40,30.10,17.50};		//Vetores auxiliares para alteracao de precos
 float gValorServ,cValorServ;
 float gValorProd,cValorProd;
 int recursividade; // para void trocoValidador ();
@@ -69,7 +69,7 @@ int main() {
 	Posicao(13,16);
 	printf("Obrigado Pela Preferencia e Volte Sempre!");
 
-	Posicao(2,23); // Posicao do system pause
+	Posicao(2,23);		// Posicao do system pause
 	system("pause");
 
 	return 0;
@@ -677,7 +677,7 @@ void gMenu () { // Produtos e Servicos
 	}
 }
 
-void cMenu () { // Produtos e ServiÁos
+void cMenu () { // Produtos e Servi√ßos
 	int tecla=0;
 
 	system("cls");
